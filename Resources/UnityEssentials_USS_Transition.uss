@@ -1,0 +1,303 @@
+.Opacity0 {
+    opacity: 0;
+}
+
+.Opacity1 {
+    opacity: 1;
+}
+
+.Translate0 {
+    translate: 0 0;
+}
+
+.TranslateLeft {
+    translate: -100 0;
+}
+
+.TranslateLeftX {
+    translate: -1500 0;
+}
+
+.TranslateUp {
+    translate: 0 -100;
+}
+
+.TranslateUpX {
+    translate: 0 -1500;
+}
+
+.TranslateRight {
+    translate: 100 0;
+}
+
+.TranslateRightX {
+    translate: 1500 0;
+}
+
+.TranslateDown {
+    translate: 0 100;
+}
+
+.TranslateDownX {
+    translate: 0 1500;
+}
+
+.Scale0 {
+    scale: 0 0;
+}
+
+.Scale0_5 {
+    scale: 0.5 0.5;
+}
+
+.Scale0_9 {
+    scale: 0.9 0.9;
+}
+
+.Scale1 {
+    scale: 1 1;
+}
+
+.Scale1_01 {
+    scale: 1.01 1.01;
+}
+
+.Scale1_1 {
+    scale: 1.01 1.1;
+}
+
+.Scale1_5 {
+    scale: 1.5 1.5;
+}
+
+.Scale2 {
+    scale: 2 2;
+}
+
+.Rotate0 {
+    rotate: 0;
+}
+
+.Rotate45 {
+    rotate: 45deg;
+}
+
+.Rotate90 {
+    rotate: 90deg;
+}
+
+.RotateMinus45 {
+    rotate: -45deg;
+}
+
+.RotateMinus90 {
+    rotate: -90deg;
+}
+
+.Rotate180 {
+    rotate: 180deg;
+}
+
+.TransitionBase0 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 0.05s, 0.05s, 0.05s, 0.05s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase1 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 0.1s, 0.1s, 0.1s, 0.1s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase2 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 0.25s, 0.25s, 0.25s, 0.25s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase3 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 0.5s, 0.5s, 0.5s, 0.5s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase4 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 0.75s, 0.75s, 0.75s, 0.75s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase5 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 1s, 1s, 1s, 1s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase6 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 1.5s, 1.5s, 1.5s, 1.5s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase7 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 2s, 2s, 2s, 2s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase8 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 2.5s, 2.5s, 2.5s, 2.5s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase9 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 3s, 3s, 3s, 3s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase10 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 5s, 5s, 5s, 5s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.TransitionBase11 {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1 1;
+    rotate: 0;
+    transition-property: opacity, translate, scale, rotate;
+    transition-duration: 10s, 10s, 10s, 10s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+
+.FadeOut0_05 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.05s;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut0_1 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut0_25 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut0_5 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut0_75 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut1 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut1_5 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1.5;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut2 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 2;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut2_5 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 2.5;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut3 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 3;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut5 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 5;
+    transition-timing-function: ease-in-out;
+}
+
+.FadeOut10 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 10;
+    transition-timing-function: ease-in-out;
+}
