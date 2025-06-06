@@ -100,8 +100,7 @@ namespace UnityEssentials
                 return;
 
             var transitionUSS = ResourceLoader.LoadResource<StyleSheet>("UnityEssentials_USS_Transition");
-            if (transitionUSS != null)
-                Document.AddStyleSheet(transitionUSS);
+            Document.AddStyleSheet(transitionUSS);
 
             Play();
         }
@@ -112,7 +111,7 @@ namespace UnityEssentials
             if (FadeOut)
                 Timing.RunCoroutine(PlayFadeOut(), handleGroup: "UI Animation");
 
-            if (InitialTransitionStates.Length == 0) 
+            if (InitialTransitionStates.Length == 0)
                 return;
 
             if (_isPlaying)
