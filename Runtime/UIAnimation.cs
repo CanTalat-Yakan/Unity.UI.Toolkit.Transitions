@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace UnityEssentials
@@ -91,14 +92,14 @@ namespace UnityEssentials
             "FadeOut10",
         };
 
-        public void Awake()
+        public void Start()
         {
             if (!HasElements)
                 return;
 
             var transitionUSS = ResourceLoader.LoadResource<StyleSheet>("UnityEssentials_USS_Transition");
             if (transitionUSS != null)
-                Document.rootVisualElement.AddStyleSheet(transitionUSS);
+                Document.AddStyleSheet(transitionUSS);
 
             Play();
         }
