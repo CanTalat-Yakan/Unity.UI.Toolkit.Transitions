@@ -5,8 +5,7 @@ using UnityEngine.UIElements;
 
 namespace UnityEssentials
 {
-    [Serializable]
-    public enum InitialState
+    public enum UITransitionState
     {
         Opacity0,
         Opacity1,
@@ -35,7 +34,7 @@ namespace UnityEssentials
         Rotate180,
     }
 
-    public enum Duration
+    public enum UITransitionDuration
     {
         _0_05s,
         _0_1s,
@@ -53,10 +52,12 @@ namespace UnityEssentials
 
     public class UIAnimation : BaseScriptComponent<VisualElement>
     {
-        public bool FadeOut = false;
-        public InitialState[] InitialStates = new InitialState[] { InitialState.Opacity0 };
-        public Duration Duration = Duration._0_5s;
+        public UITransitionState[] InitialTransitionStates = { UITransitionState.Opacity0 };
+
+        [Space]
+        public UITransitionDuration Duration = UITransitionDuration._0_5s;
         public float Delay = 0;
+        public bool FadeOut = false;
 
         private bool _isPlaying = false;
         private const string _transitionBaseClassName = "TransitionBase";
@@ -110,7 +111,7 @@ namespace UnityEssentials
             if (FadeOut)
                 Timing.RunCoroutine(PlayFadeOut(), handleGroup: "UI Animation");
 
-            if (InitialStates.Length == 0) 
+            if (InitialTransitionStates.Length == 0) 
                 return;
 
             if (_isPlaying)
@@ -132,7 +133,7 @@ namespace UnityEssentials
 
         private IEnumerator<float> PlayTransition()
         {
-            foreach (var initialState in InitialStates)
+            foreach (var initialState in InitialTransitionStates)
                 IterateLinkedElements(e => e.AddToClassList(initialState.ToString()));
 
             _isPlaying = true;
@@ -167,7 +168,7 @@ namespace UnityEssentials
 
         private void RemoveClasses()
         {
-            foreach (var initialState in InitialStates)
+            foreach (var initialState in InitialTransitionStates)
                 IterateLinkedElements(e => e.RemoveFromClassList(initialState.ToString()));
 
             IterateLinkedElements(e => e.RemoveFromClassList(_transitionBaseClassName + (int)Duration));
