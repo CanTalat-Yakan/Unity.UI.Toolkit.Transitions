@@ -24,6 +24,6 @@ Install the Unity Essentials entry package via Unity's Package Manager, then ins
 
 ---
 
-# UI Toolkit Transitions
+# UI Toolkit Animation
 
 > Quick overview:
