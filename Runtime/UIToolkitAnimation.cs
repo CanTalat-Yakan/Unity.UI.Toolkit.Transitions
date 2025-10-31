@@ -50,8 +50,8 @@ namespace UnityEssentials
         _10s
     }
 
-    [AddComponentMenu("UI Toolkit/UI Animation")]
-    public class UIAnimation : UIScriptComponentBase<VisualElement>
+    [AddComponentMenu("UI Toolkit/Animations")]
+    public class UIToolkitAnimation : UIScriptComponentBase<VisualElement>
     {
         public UITransitionState[] InitialTransitionStates = { UITransitionState.Opacity0 };
 
